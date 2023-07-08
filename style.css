@@ -73,7 +73,6 @@ body {
 
   .container {
     box-shadow: -8px 8px 0px 0px rgba(19, 56, 52, 0.75);
-    min-height: 80vh;
   }
 }
 
