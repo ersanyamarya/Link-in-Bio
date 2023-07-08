@@ -198,6 +198,7 @@ body {
 
 #vcard-button {
   width: 100%;
+  cursor: pointer;
 
   color: var(--primary-color, #37474F);
   padding: 1rem 0.5rem;
