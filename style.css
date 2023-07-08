@@ -14,10 +14,14 @@
 
   --color-background: #F5EBD7FF;
   --color-primary: #FBA979FF;
-  --color-secondry: #7385DEFF;
-  --color-tertnary: #BBD700FF;
-  --color-text: #FFFFFFFF;
+  --color-secondary: #7385DEFF;
+  --color-tertiary: #BBD700FF;
+  --color-text: #FEFEFE;
 
+}
+
+body {
+  background-color: var(--color-text);
 }
 
 * {
@@ -58,7 +62,7 @@ a {
   justify-content: center;
   padding: 1rem;
   gap: 1.2rem;
-  background-color: var(--color-secondry);
+  background-color: var(--color-secondary);
   box-shadow: -8px 8px 0px 0px rgba(19, 56, 52, 0.75);
   border-radius: 0.5rem;
   transition: all 0.2s ease-in-out;
@@ -124,7 +128,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background-color: var(--color-tertnary);
+  background-color: var(--color-tertiary);
   box-shadow: -8px 8px 0px 0px rgba(19, 56, 52, 0.75);
   border-radius: 0.5rem;
   transition: all 0.2s ease-in-out;
@@ -172,7 +176,7 @@ a {
 
   font-size: 1.2rem;
 
-  background-color: var(--color-tertnary);
+  background-color: var(--color-tertiary);
   border-radius: 0.5rem;
 
   transition: all 0.2s ease-in-out;
