@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://sanyamarya.com",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp dist/index.html dist/404.html && cp dist/index.html dist/200.html && echo sanyamarya.com > ./dist/CNAME",
     "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "vite build",
